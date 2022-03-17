@@ -1,4 +1,8 @@
-import { initialize, turnAllCards, getTimerId as sendTimerId } from "./card.js";
+import {
+  initialize,
+  turnAllCards,
+  getTimerId as sendTimerId,
+} from "./modules/card.js";
 
 let gameBoard = document.getElementById("gameBoard");
 let gameTimer = document.getElementById("countDownTimer");
